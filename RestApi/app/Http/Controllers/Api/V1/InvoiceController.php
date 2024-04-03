@@ -43,7 +43,7 @@ class InvoiceController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreInvoiceRequest $request)
+    public function store( $request)
     {
         //
     }
@@ -67,7 +67,7 @@ class InvoiceController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateInvoiceRequest $request, Invoice $invoice)
+    public function update( $request, Invoice $invoice)
     {
         //
     }
